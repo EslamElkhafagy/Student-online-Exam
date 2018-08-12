@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="layout.questions.MainQuestions"
+    android:id="@+id/rr">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="476dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/button">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/button"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/ll"
+                android:layout_alignParentStart="true">
+
+
+
+            </LinearLayout>
+        </ScrollView>
+        <!--android:layout_alignRight="@+id/include"-->
+        <!--android:layout_alignEnd="@+id/include" -->
+
+
+
+        <!--<include-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/questions"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="87dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:id="@+id/include" />-->
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/sumb"
+        android:onClick="sendQuestions"
+        android:layout_alignTop="@+id/txt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right" />
+
+</LinearLayout>

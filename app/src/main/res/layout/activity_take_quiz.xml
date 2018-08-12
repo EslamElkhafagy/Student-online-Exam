@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layout.TakeQuiz.TakeQuiz"
+    android:background="@drawable/ba2">
+
+    <TextView
+        android:textColor="#FFF"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="AvaQuiz"
+        android:id="@+id/textView21"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:textColor="#FFF"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="#FFF"
+        android:textAllCaps="true"
+        android:background="@drawable/my_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Take"
+        android:id="@+id/button5"
+        android:onClick="Load"
+        android:layout_below="@+id/spin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp" />
+</RelativeLayout>

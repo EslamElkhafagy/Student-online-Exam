@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enjoy.study">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo75"
+        android:label="ReConnect"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name="layout.questions.MainQuestions">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="layout.Registration.Registration" />
+        <!-- <activity android:name="layout.login.Login" /> -->
+        <activity android:name="layout.Registration.Login" />
+        <activity android:name="layout.Register.Register">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="layout.StudentQuiz.StudentQuiz">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="layout.LoginPage.LoginPage">
+
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+        <activity android:name="layout.Profile.Profile" />
+        <activity android:name="layout.doctorprofile.doctorprofile" />
+        <activity android:name="layout.course.course" />
+        <activity android:name="layout.Main_Assigmaent.Main_Assigmaent">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity android:name="layout.AddCourse.AddCourse">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="layout.CreateAssigmaent.CreateAssigmaent" />
+        <activity android:name="layout.TakeQuiz.TakeQuiz"></activity>
+    </application>
+
+</manifest>
